@@ -2,26 +2,28 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: "" # the website title (if blank, full name will be used instead)
+title: "Pedro R. C. Dall'Antonia"
 first_name: Pedro
 middle_name: R. C.
 last_name: Dall'Antonia
 contact_note: >
-  Feel free to reach out to me via email or X (formerly Twitter)
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Final year M.Sc. student in Applied Mathematics at FGV EMAp, formerly Quant Reseacher @ Kadima Asset Management. Interested in Generative Flow Networks, Variational Inference, Conformal Prediction, Bayesian Statistics and all things related to Machine Learning.
+  Feel free to reach out via email at pepedall1997 [at] gmail [dot] com.
+
+description: >
+  Final-year M.Sc. student in Applied Mathematics at FGV EMAp. Researching Probabilistic Machine Learning, GFlowNets, and Prediction-Powered Inference. Formerly Quantitative Researcher at Kadima Asset Management and Midshipman at the Brazilian Navy.
+
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: applied mathematics, machine learning, gflownets, research # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://alshedivat.github.io # the base hostname & protocol for your site
-baseurl: "" # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: false # set to true if you want to display last updated in the footer
-impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
-back_to_top: true # set to false to disable the back to top button
+keywords: applied mathematics, machine learning, gflownets, probabilistic ml, conformal prediction, fgv emap, research
+lang: en
+icon: ⚛️
+
+url: https://pedrodall.github.io
+baseurl: "" 
+last_updated: false
+impressum_path:
+back_to_top: true
 
 # -----------------------------------------------------------------------------
 # Theme
@@ -47,9 +49,9 @@ repo_trophies:
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
+search_enabled: false
 socials_in_search: true
-posts_in_search: true
+posts_in_search: false
 bib_search: true
 
 # Dimensions
@@ -92,10 +94,10 @@ lsi: false # produce an index for related posts
 
 # Pagination
 pagination:
-  enabled: true
+  enabled: false
 
 related_blog_posts:
-  enabled: true
+  enabled: false
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
@@ -115,19 +117,19 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+#disqus_shortname: al-folio # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+# external_sources:
+#   - name: medium.com
+#     rss_url: https://medium.com/@al-folio/feed
+#   - name: Google Blog
+#     posts:
+#       - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
+#         published_date: 2024-05-14
 
 # -----------------------------------------------------------------------------
 # Newsletter
