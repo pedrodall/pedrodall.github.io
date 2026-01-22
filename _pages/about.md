@@ -1,4 +1,5 @@
 ---
+#bundle exec jekyll serve --livereload
 layout: about
 title: about
 permalink: /
