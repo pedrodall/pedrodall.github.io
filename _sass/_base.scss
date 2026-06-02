@@ -759,12 +759,13 @@ footer.sticky-bottom {
           display: inline-block;
           background-color: var(--global-theme-color);
           margin-bottom: 0.5rem;
-          color: var(--global-card-bg-color) !important;
+          color: #111 !important;
 
           a {
-            color: white;
+            color: #111;
 
             &:hover {
+              color: #111;
               text-decoration: none;
             }
           }
