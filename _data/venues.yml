@@ -5,3 +5,7 @@ AISTATS:
 ICML:
   url: https://icml.cc/Conferences/2026
   color: "#ffe9cc"
+
+NeurIPS:
+  url: https://neurips.cc/Conferences/2026
+  color: "#ece6ff"
