@@ -3,7 +3,7 @@
 layout: about
 title: about
 permalink: /
-#subtitle: M.Sc. Student in Applied Mathematics at <a href='https://emap.fgv.br/'>FGV EMAp</a>.
+#subtitle: Ph.D. Student in Applied Mathematics at <a href='https://emap.fgv.br/'>FGV EMAp</a>.
 
 profile:
   align: right
@@ -27,9 +27,9 @@ latest_posts:
   limit: 3 
 ---
 
-I am a final-year Master's student in Applied Mathematics at the School of Applied Mathematics, Getulio Vargas Foundation (**FGV EMAp**), in Rio de Janeiro, where I also obtained my B.Sc. degree. Currently, I am working under the supervision of <a href='https://www.diegomesquita.com'>Diego Mesquita</a>.
+I am a first-year Ph.D. student in Applied Mathematics at the School of Applied Mathematics, Getulio Vargas Foundation (**FGV EMAp**), in Rio de Janeiro, where I also obtained my B.Sc. and M.Sc. degrees. Currently, I am working under the supervision of <a href='https://www.diegomesquita.com'>Diego Mesquita</a>.
 
-Previously, I worked as a Quantitative Researcher at **Kadima Asset Management**, following my service as a Midshipman in the **Brazilian Navy**.
+Previously, I worked as a Partner / Quantitative Researcher at **Kadima Asset Management**, following my service as a Midshipman in the **Brazilian Navy**.
 
 My research lies broadly in **Probabilistic Machine Learning**. Most recently, I have been focusing on **Generative Flow Networks (GFlowNets)**, investigating methods to help them explore sparse combinatorial spaces more effectively while mitigating mode collapse.
 
